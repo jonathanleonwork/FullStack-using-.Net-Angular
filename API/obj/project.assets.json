@@ -2808,32 +2808,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/rahsahay/.nuget/packages/": {}
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rahsahay/Rahul/MyExperiments/MicroServices/dotnet/dotnet-angular-chatgpt/API/API.csproj",
+      "projectUniqueName": "D:\\Gits\\.Net\\FullStack-using-.Net-Angular\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/rahsahay/Rahul/MyExperiments/MicroServices/dotnet/dotnet-angular-chatgpt/API/API.csproj",
-      "packagesPath": "/Users/rahsahay/.nuget/packages/",
-      "outputPath": "/Users/rahsahay/Rahul/MyExperiments/MicroServices/dotnet/dotnet-angular-chatgpt/API/obj/",
+      "projectPath": "D:\\Gits\\.Net\\FullStack-using-.Net-Angular\\API\\API.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "D:\\Gits\\.Net\\FullStack-using-.Net-Angular\\API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/rahsahay/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/rahsahay/Rahul/MyExperiments/MicroServices/dotnet/dotnet-angular-chatgpt/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/rahsahay/Rahul/MyExperiments/MicroServices/dotnet/dotnet-angular-chatgpt/Infrastructure/Infrastructure.csproj"
+            "D:\\Gits\\.Net\\FullStack-using-.Net-Angular\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Gits\\.Net\\FullStack-using-.Net-Angular\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -2842,7 +2849,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net7.0": {
@@ -2886,6 +2899,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.20, 7.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2894,7 +2925,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
